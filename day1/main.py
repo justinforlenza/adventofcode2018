@@ -1,10 +1,7 @@
-
 # Set starting frequency
 frequency = 0
 
 # Open input file and convert to array
-calibration_steps = []
-
 with open('input.txt', 'r') as file:
     calibration_steps = file.read().split('\n')
 
@@ -38,5 +35,6 @@ while twice is False:
         # Add frequency the list of previously occurrences
         previous_frequencies.append(frequency)
 
+print('')
 print('The frequency that reaches twice is:')
 print(twice)
