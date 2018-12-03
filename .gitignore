@@ -119,3 +119,6 @@ venv.bak/
 .mypy_cache/
 
 .idea
+
+# Ignore problem input files
+input.txt
